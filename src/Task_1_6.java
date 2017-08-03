@@ -3,7 +3,6 @@
 public class Task_1_6 {
     public static String compression(String a) {
         StringBuilder sb = new StringBuilder();
-        int count = 0;
         int index = 1;
 
         for (int i = 0; i < a.length(); i++) {
