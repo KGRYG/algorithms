@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Custom_2 {
 
     public static int[] rotateArray(int[] arr, int d){
@@ -25,10 +27,11 @@ public class Custom_2 {
 //            a[a.length-1] = temp;
 //        }
 
-        rotateArray(a, d);
+        a = rotateArray(a, d);
 
-        for (int x : a) {
-            System.out.print(x);
-        }
+//        for (int x : a) {
+//            System.out.print(x);
+//        }
+        Arrays.stream(a).forEach(System.out::print);
     }
 }
