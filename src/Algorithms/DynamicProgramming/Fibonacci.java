@@ -33,9 +33,9 @@ public class Fibonacci {
     }
 
     public boolean ifFibonacci(int n) {
-        if (n <= 1) return true;
+        if (n <= 3) return true;
         int n1 = 1;
-        int n2 = 1;
+        int n2 = 2;
         int n3 = 0;
         while (n3 < n) {
             n3 = n1 + n2;
