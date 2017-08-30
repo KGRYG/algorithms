@@ -15,7 +15,7 @@ public class SubstringSearch {
             }
         }
         
-        return j == pattern.length() ? true: false;
+        return j == pattern.length();
     }
 
     public static int search(String text, String pattern) {
@@ -36,6 +36,5 @@ public class SubstringSearch {
         String a = "My word";
         String b = "word";
         System.out.println(search(a, b));
-        System.out.println(4-0-1);
     }
 }

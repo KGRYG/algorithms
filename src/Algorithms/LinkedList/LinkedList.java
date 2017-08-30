@@ -1,5 +1,7 @@
 package Algorithms.LinkedList;
 
+import java.util.Stack;
+
 public class LinkedList <T extends Comparable<T>> implements List<T> {
     private Node<T> root;
     private int sizeOfList;
@@ -54,6 +56,30 @@ public class LinkedList <T extends Comparable<T>> implements List<T> {
             actualNode = actualNode.getNextNode();
         }
 
+    }
+
+    public boolean isPalindrome() {
+        Stack<Node> stack = new Stack<>();
+        Node<T> slow = this.root;
+        Node<T> fast = this.root;
+
+        while (fast != null && fast.getNextNode() != null) {
+            stack.push(slow);
+            slow = slow.getNextNode();
+            fast = fast.getNextNode().getNextNode();
+        }
+
+        if (fast != null) slow = slow.getNextNode();
+
+        while (slow != null) {
+            if (slow.getData().compareTo((T) stack.pop().getData()) != 0) {
+                return false;
+            }
+
+            slow = slow.getNextNode();
+        }
+
+        return true;
     }
 
     @Override
