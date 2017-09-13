@@ -5,4 +5,9 @@ public class Cimpl implements C {
     public int adfDAS() {
         return 0;
     }
+
+    @Override
+    public int sumMet(int x) {
+        return 5;
+    }
 }

@@ -10,8 +10,6 @@ public class Play {
         ArrayList<String> arrayList = new ArrayList<>();
         LinkedList<String> linkedList = new LinkedList<>();
         HashMap<String, String> hashMap = new HashMap<>();
-        System.out.println(distance(-6,8,-3,9));
-        System.out.println(Math.pow(5, 2));
-
+        String string = "asdf";
     }
 }

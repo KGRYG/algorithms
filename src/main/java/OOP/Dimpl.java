@@ -6,8 +6,4 @@ public class Dimpl extends D {
         return 0;
     }
 
-    @Override
-    public int adfDAS() {
-        return 0;
-    }
 }
