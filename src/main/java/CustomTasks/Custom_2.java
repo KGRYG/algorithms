@@ -1,3 +1,5 @@
+package CustomTasks;
+
 import java.util.Arrays;
 
 public class Custom_2 {

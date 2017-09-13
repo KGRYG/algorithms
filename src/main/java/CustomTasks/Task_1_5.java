@@ -1,3 +1,5 @@
+package CustomTasks;
+
 public class Task_1_5 {
 
     private static boolean oneway(String a, String b) {

@@ -1,3 +1,5 @@
+package CustomTasks;
+
 public class Task_1_7 {
 
     public static void rotateMatrix(int n) {

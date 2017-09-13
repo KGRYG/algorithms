@@ -1,4 +1,4 @@
-
+package CustomTasks;
 
 public class Task_1_6 {
     public static String compression(String a) {

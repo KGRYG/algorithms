@@ -1,3 +1,5 @@
+package CustomTasks;
+
 public class Task_1_8 {
     public static void zeroMatrix() {
         int [][] matrix = {
