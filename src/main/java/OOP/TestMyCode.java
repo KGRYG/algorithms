@@ -1,6 +1,8 @@
 package OOP;
 
 
+import com.sun.org.apache.xpath.internal.SourceTree;
+
 import java.io.Serializable;
 import java.util.*;
 
@@ -16,16 +18,7 @@ class TestMyCode {
 
 
     public static void main(String[] args) {
-        List<Serializable> list = new ArrayList<>();
-        show(list);
-
-        List<Integer> integers = new ArrayList<>();
-        integers.add(12);
-        integers.add(1);
-        integers.add(2);
-        integers.add(-12);
-        integers.add(22);
-
+        System.out.println(SingletonEnum.Instance == SingletonEnum.Instance);
 
     }
 }
